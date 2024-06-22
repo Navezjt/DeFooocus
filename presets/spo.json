@@ -4,12 +4,12 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            "None",
-            1.0
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
         ],
         [
-            "None",
-            1.0
+            "sd_xl_spo_lora.safetensors",
+            0.65
         ],
         [
             "None",
@@ -28,7 +28,7 @@
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
-    "default_performance": "Extreme Speed",
+    "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
@@ -42,7 +42,10 @@
         "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {},
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "sd_xl_spo_lora.safetensors": "https://huggingface.co/ehristoforu/dpo-spo-loras/resolve/main/sd_xl_spo_lora.safetensors"
+    },
     "previous_default_models": [
         "FluentlyXL-v3.safetensors",
         "FluentlyXL-v2.safetensors",

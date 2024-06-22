@@ -105,8 +105,8 @@ controlnet_image_count = 4
 
 
 class Steps(IntEnum):
-    QUALITY = 60
-    SPEED = 30
+    QUALITY = 45
+    SPEED = 25
     EXTREME_SPEED = 8
 
 
@@ -133,7 +133,7 @@ class Performance(Enum):
 
 
 performance_selections = [
-    ('Quality <span style="color: grey;"> \U00002223 60 steps</span>', Performance.QUALITY.value),
-    ('Speed <span style="color: grey;"> \U00002223 30 steps</span>', Performance.SPEED.value),
-    ('Extreme Speed <span style="color: grey;"> \U00002223 8 steps, LCM</span>', Performance.EXTREME_SPEED.value)
+    ('Quality <span style="color: grey;"> \U00002223 45 steps</span>', Performance.QUALITY.value),
+    ('Speed <span style="color: grey;"> \U00002223 25 steps</span>', Performance.SPEED.value),
+    ('Extreme Speed <span style="color: grey;"> \U00002223 8 steps</span>', Performance.EXTREME_SPEED.value)
 ]
