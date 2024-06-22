@@ -5,6 +5,7 @@ We are glad to introduce DeFooocus - it is a fork of the Fooocus interface, it c
 
 This is just a fork (and a fork of forks), we are not the authors of this creation, all thanks to [llyasviel](https://github.com/lllyasviel).
 
+[>>> DeFooocus on CivitAI <<<](https://civitai.com/models/519557)
 
 ![preview](assets/preview.png)
 
@@ -12,21 +13,27 @@ This is just a fork (and a fork of forks), we are not the authors of this creati
 
 ### Add Photopea:
 
-![photpea](assets/photopea.png)
+![photopea](assets/photopea.png)
 
 ### Add rembg:
 
 ![rembg](assets/rembg.png)
 
+### Add Online (demos & tools):
+
+![demos](assets/online_demos.png)
+![tools](assets/online_tools.png)
+![demos_comfyu](assets/online_comfyui.png)
+
 ### Others add:
 
-- Fast presets choice
-- More presets
+- Fast presets choice (in dropdown)
+- More presets (including SD1.5)
 - Sound after render
 - Metadata
 - Special theme
-- Optimize parameters
-- Default model is FluentlyXL v2
+- Optimize parameters and UI
+- Default model is FluentlyXL v4
 
 
 ---
