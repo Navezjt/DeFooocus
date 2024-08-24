@@ -13,9 +13,9 @@ body:
       label: Prerequisites
       description: Please make sure to troubleshoot yourself before continuing.
       options:
-        - label: I have read the [Troubleshooting Guide](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md)
+        - label: I have read the [Troubleshooting Guide](https://github.com/ehristoforu/DeFooocus/blob/main/troubleshoot.md)
           required: true
-        - label: I have checked that this is not a duplicate of an already existing [issue](https://github.com/lllyasviel/Fooocus/issues)
+        - label: I have checked that this is not a duplicate of an already existing [issue](https://github.com/ehristoforu/DeFooocus/issues)
           required: true
   - type: textarea
     id: description
