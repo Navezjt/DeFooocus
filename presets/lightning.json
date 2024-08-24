@@ -1,5 +1,5 @@
 {
-    "default_model": "sdxl_lightning_1step_x0.safetensors",
+    "default_model": "FluentlyXL-v4.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -8,7 +8,7 @@
             1.0
         ],
         [
-            "None",
+            "sdxl_lightning_4step_lora.safetensors",
             1.0
         ],
         [
@@ -24,10 +24,10 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 0.0,
-    "default_sample_sharpness": 2.0,
-    "default_sampler": "euler",
-    "default_scheduler": "sgm_uniform",
+    "default_cfg_scale": 1,
+    "default_sample_sharpness": 0.2,
+    "default_sampler": "dpmpp_sde",
+    "default_scheduler": "normal",
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
@@ -37,11 +37,15 @@
         "Fooocus Sharp"
     ],
     "default_aspect_ratio": "1024*1024",
-    "default_overwrite_step": 1,
+    "default_overwrite_step": 4,
     "checkpoint_downloads": {
-        "sdxl_lightning_1step_x0.safetensors": "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_1step_x0.safetensors"
+        "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {},
-    "previous_default_models": []
+    "lora_downloads": {
+        "sdxl_lightning_4step_lora.safetensors": "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_4step_lora.safetensors"
+    },
+    "previous_default_models": [
+        "sdxl_lightning_1step_x0.safetensors"
+    ]
 }

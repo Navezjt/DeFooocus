@@ -8,6 +8,9 @@
     "Old Photo Restoration": [
         "https://modelscope-old-photo-restoration.hf.space"
     ],
+    "Background Removal": [
+        "https://not-lain-background-removal.hf.space"
+    ],
     "ControlNet": [
         "https://hysts-controlnet-v1-1.hf.space"
     ],
